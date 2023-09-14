@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>turno</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div id="cajaprincipal">
+    
+        <h1>Municipalidad de Arroyito</h1>
+    
+    <div id="turno">
+    <label for="">Ingrese D.N.I</label><br>
+    <input type="number" id="turnos"><br>
+    <button id="Solicitar" onclick="dni()">Solicitar</button>
+    </div>
+    <div id="opciones" style="display: none;">
+        <h2 id="bienvenida"></h2>
+        <button id="Impuestos" class="opcion" onclick="impuestos()">Impuestos Varios</button><br>
+        <button id="caja" class="opcion">caja</button><br>
+        <button id="Licencia" class="opcion">Licencia de conducir</button><br>
+        <button id="Atencion" class="opcion">Atencion preferencial</button>
+    </div>
+    </div>
+    <div style="display: none;" id="resultado">
+        <h2 id="turnito"></h2>
+    </div>
+</body>
+<script src="conexion.js"></script>
+</html>

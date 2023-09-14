@@ -1,0 +1,39 @@
+#cajaprincipal{
+    border: 1px solid blue;
+    text-align: center;
+    
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    
+}
+#Solicitar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#turnos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    text-align: center;
+}
+.opcion{
+    width: 316px;
+    height: 36px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+#resultado{
+    border: 1px solid blue;
+    text-align: center;
+    height: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+#turnito{
+    text-align: center;
+}
